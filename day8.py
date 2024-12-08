@@ -31,3 +31,29 @@ year = int(input("Please enter year:"))
 print(leapyear(year))
 
 
+
+# 4. Number Comparison
+# Write a function compare_numbers(a, b) that takes two integers and prints:
+
+# "a is greater" if a > b
+# "b is greater" if b > a
+# "a and b are equal" if both numbers are equal.
+
+def numberComparision(a,b):
+    if a > b:
+        print("a is greater")
+    elif b > a:
+        print("b is greater")
+    elif a == b:
+        print("a and b are equal")
+    else:
+        print("Enter integers only")
+
+a = int(input("Please enter A: "))
+
+b = int(input("Please enter B: "))
+
+print(numberComparision(a,b))
+
+
+
