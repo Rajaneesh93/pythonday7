@@ -28,3 +28,14 @@ def second_lrg_num(list1):
 
 second_lrg_num(list1)
 
+
+# 4. Count Occurrences of a Character in a String
+# Question: Write a Python function that counts how many times a specific character appears in a string.
+
+def count_char(string1,char):
+    return string1.count(char)
+    
+
+a = count_char("aaaaabbbb","a")
+
+print(a)
