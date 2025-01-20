@@ -1,0 +1,15 @@
+# Reverse a String Without Using Built-in Functions
+# Question: Write a Python function that reverses a string without using the reversed() function or slicing.
+
+input_string = "123456"
+def reverse_string(input_string):
+    r_string =""
+    for i in input_string:
+        r_string = i +r_string
+    return r_string
+
+
+k = reverse_string(input_string)        
+
+print(k)
+
