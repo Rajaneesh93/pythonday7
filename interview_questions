@@ -13,3 +13,18 @@ k = reverse_string(input_string)
 
 print(k)
 
+
+# 2. Find the Second Largest Element in a List
+# Question: Write a Python function that finds the second largest element in a list of numbers.
+
+list1 =[3,4,1,5,1,6,8,2,9,9,9,12]
+
+def second_lrg_num(list1):
+    list1 = list(set(list1))
+    list1.sort()
+    lrg_num = list1[-2]
+    print(list1)
+    print(lrg_num)
+
+second_lrg_num(list1)
+
