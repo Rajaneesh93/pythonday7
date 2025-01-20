@@ -39,3 +39,18 @@ def count_char(string1,char):
 a = count_char("aaaaabbbb","a")
 
 print(a)
+
+
+
+# 5. Remove Duplicates from a List
+# Question: Write a Python function to remove duplicate elements from a list without using the set data structure.
+
+nums = [1,2,2,3,3,3,4,4,4,4]
+def rmv_dup(nums):
+    result = []
+    for i in nums:
+        if i not in result:
+            result.append(i)
+    print(result)
+            
+rmv_dup(nums)
