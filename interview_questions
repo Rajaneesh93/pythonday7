@@ -71,3 +71,16 @@ def intersection(list1, list2):
 
 print(intersection(l1,l2))
 print(list3)
+
+
+
+# To find the missing number
+
+l1 = [1,2,4,5,6]
+
+def missing(list):
+    n = len(list)+1
+    total = n*(n+1)//2
+    return total - sum(list)
+    
+print(missing(l1))
