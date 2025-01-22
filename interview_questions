@@ -94,3 +94,16 @@ def sumnum(numb):
     return numb%10 + sumnum(numb//10)
 
 print(sumnum(num))
+
+
+# 9 TO find prime number
+
+def primeno(n):
+    if n<=1:
+        return False
+    for i in range(2,int(n**0.5)+1):
+        if n %i ==0:
+            return False
+    return True
+
+print(primeno(21))
