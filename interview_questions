@@ -107,3 +107,18 @@ def primeno(n):
     return True
 
 print(primeno(21))
+
+# 10 count of vowels and consonants
+def countVC(s):
+    vowels = "aeiouAEIOU"
+    v_count = 0
+    c_count = 0
+    
+    for char in s:
+        if char in vowels:
+            v_count = v_count +1
+        else:
+            c_count = c_count +1
+    return v_count,c_count
+    
+print(countVC("Rajaneesh"))
