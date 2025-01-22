@@ -74,7 +74,7 @@ print(list3)
 
 
 
-# To find the missing number
+#7  To find the missing number
 
 l1 = [1,2,4,5,6]
 
@@ -84,3 +84,13 @@ def missing(list):
     return total - sum(list)
     
 print(missing(l1))
+
+#8  To find the sum of integer by using recursion
+num = 1234567
+
+def sumnum(numb):
+    if numb ==0:
+        return 0
+    return numb%10 + sumnum(numb//10)
+
+print(sumnum(num))
